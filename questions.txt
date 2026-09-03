@@ -1,0 +1,2 @@
+(1) The two syscalls I added are write(1, "hello STDOUT\n", 13) = 13, which writes to standard output, and write(2, "ERROR: this is an error", 23) = 23, which writes to standard error.
+(2) One other syscall shown is openat. The openat syscall opens a file relative to a directory file descriptor and returns a file descriptor that the process can use to access that file.
